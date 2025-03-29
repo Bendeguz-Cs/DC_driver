@@ -1,10 +1,4 @@
-/*
-Class - KEYWORD1
-Function - KEYWORD2
-
-separation gap: single tab: "  "
-*/
-
-library	KEYWORD1
+DC_driver	KEYWORD1
 begin	KEYWORD2
-dash	KEYWORD2
+digitalMove	KEYWORD2
+analogMove	KEYWORD2
