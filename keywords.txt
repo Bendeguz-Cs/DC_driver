@@ -1,0 +1,10 @@
+/*
+Class - KEYWORD1
+Function - KEYWORD2
+
+separation gap: single tab: "  "
+*/
+
+library	KEYWORD1
+begin	KEYWORD2
+dash	KEYWORD2
