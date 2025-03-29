@@ -21,7 +21,7 @@ void DC_driver::begin()
   pinMode(_en, OUTPUT);
 }
 
-void DC_driver::digitalMove(bool direction = true)
+void DC_driver::digitalMove(bool direction)
 {
    if(direction) {
      digitalWrite(_in1, HIGH);
@@ -33,7 +33,7 @@ void DC_driver::digitalMove(bool direction = true)
   digitalWrite(_en, HIGH);
 }
 
-void DC_driver::analogMove(bool direction = true, byte speed = 127)
+void DC_driver::analogMove(bool direction, byte speed)
 {
   if(direction) {
      digitalWrite(_in1, HIGH);
