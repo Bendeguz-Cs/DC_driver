@@ -14,8 +14,8 @@ class DC_driver
   public:
     DC_driver(byte in1, byte in2, byte en);
     void begin();
-    void digitalMove(bool direction = true);
-    void analogMove(bool direction = true, byte speed = 127);
+    void digitalMove(bool direction);
+    void analogMove(bool direction, byte speed);
   private:
     byte _in1;
     byte _in2;
