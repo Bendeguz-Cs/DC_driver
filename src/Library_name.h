@@ -4,19 +4,22 @@
   //LICENSE\\
 */
 
-#ifndef Library_h
-#define Library_h
+#ifndef DC_driver_h
+#define DC_driver_h
 
 #include "Arduino.h"
 
-class library
+class DC_driver
 {
   public:
-    library();
+    DC_driver();
     void begin();
-    void function1();
+    void digitalMove();
+    void analogMove();
   private:
-    
+    byte _in1;
+    byte _in2;
+    byte _en;
 };
 
 #endif
