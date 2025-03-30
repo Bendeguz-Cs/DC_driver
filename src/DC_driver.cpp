@@ -1,7 +1,6 @@
 /*
   Library.cpp - //short description\\.
   Created by Csermendy Bendeguz, March 29, 2025.
-  Released under the MIT license
 */
 
 #include "Arduino.h"
