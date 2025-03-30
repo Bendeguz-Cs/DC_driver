@@ -1,5 +1,5 @@
 /*
-  Library.cpp - //short description\\.
+  DC_driver.cpp - Library to use DC motor drivers such as the L298N.
   Created by Csermendy Bendeguz, March 29, 2025.
 */
 
