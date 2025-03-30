@@ -1,7 +1,6 @@
 /*
-  Library.h - //short description\\.
-  Created by Csermendy Bendeguz, //MONTH DAY, YEAR\\.
-  //LICENSE\\
+  DC_driver.h - //short description\\.
+  Created by Csermendy Bendeguz, March 29, 2025.
 */
 
 #ifndef DC_driver_h
