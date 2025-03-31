@@ -29,7 +29,7 @@ void DC_driver::digitalMove(bool direction)
      digitalWrite(_in1, LOW);
      digitalWrite(_in2, HIGH);
    }
-  digitalWrite(_en, HIGH);
+  analogWrite(_en, HIGH);
 }
 
 void DC_driver::analogMove(bool direction, byte speed)
